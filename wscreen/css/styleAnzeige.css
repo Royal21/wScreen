@@ -1,0 +1,64 @@
+/* +----------------------------------------------------------------------+*/
+/* | Copyright (c) 2011 Marco von Gunten <marcovg@gmx.ch> 		  	      |*/
+/* +----------------------------------------------------------------------+*/
+/* | In dieser Datei werden die Styles f�r die Anzeige definiert.	      |*/
+/* +----------------------------------------------------------------------+*/
+body {
+	font-family: Calibri, sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	color: #142b7b;
+	width: 1200px;
+	height: 700px;
+	background: #000000;
+}
+
+h1{
+	font-size: 50px;
+	display: inline;
+}
+
+#information{
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 290px;
+	width: 700px;
+	height: 350px;
+	font-size: 40px;
+}
+	
+#empfang{
+	position: absolute;
+	margin-left:790px;
+	margin-top: 460px;
+	width: 450px;
+	height: 80px;
+	font-size: 44px;
+	text-align:center;
+}
+
+#galleryFooter{
+	position: absolute;
+	width:400px;
+	height:70px;
+	top: 30px;
+	left: 20px;
+	background: url(images/balken.png);
+	z-index: 11;
+}
+
+#galleryFooterText{
+	position: relative;
+	top: 15px;
+	left: 35px;
+	color: white;
+	font-size: 30px;
+	z-index: 12;
+}
+
+#mouseHidden{
+	position: absolute;
+	width: 1250px;
+	height: 750px;
+	cursor: url('images/leer.cur'), move;
+}

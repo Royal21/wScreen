@@ -1,0 +1,164 @@
+/* +----------------------------------------------------------------------+*/
+/* | Copyright (c) 2011 Marco von Gunten <marcovg@gmx.ch> 		  	      |*/
+/* +----------------------------------------------------------------------+*/
+/* | In dieser Datei werden die Styles für das Basic Layout definiert.    |*/
+/* +----------------------------------------------------------------------+*/
+
+header,footer, nav {
+	display: block;
+}
+
+body {
+	font-family: Calibri, sans-serif;
+	color: #ffffff;
+	background-color: #94979f;
+	background-image: url("images/bg.gif");
+	background-repeat: repeat-x;
+}
+
+header {
+	margin-left: 50px;
+	width: 900px;
+	height: 100px;
+	background-image: url("images/header.gif");
+	background-repeat: no-repeat;
+}
+/*"Deckel" des Content Feldes*/
+#content-top{
+	margin-top: 10px;
+	margin-left: 50px;
+	width: 900px;
+	height: 20px;
+	background-image: url("images/contentTop.gif")
+	}
+/*Mittelstück des Contents welches flexibel in der Länge ist	*/
+#content {
+	margin-left: 50px;
+	width: 900px;
+	min-height: 440px;
+	background-image: url("images/contentMiddle.gif");
+	background-repeat: repeat-y;
+}
+
+/* for IE */
+* html #content{
+height: 440px;
+}
+
+h1{
+	font-weight: lighter;
+	color: #000;
+	margin-top:-5px;
+}
+
+h2{
+	font-weight: lighter;
+	color: #000;
+	margin-bottom: 5px;
+
+}
+
+th{
+	text-align: left;	
+}
+
+img{
+	border: 0px;
+}
+
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #000000;
+	text-decoration: none;
+}
+
+textarea{
+	resize: none;
+	overflow: hidden;
+}
+
+#text-content{
+	margin-left: 10px;
+	width: 880px;	
+}
+/*"Boden" des Content Feldes*/
+footer{
+	width: 900px;
+	height: 40px;
+	margin-left: 50px;
+	text-align: center;
+	background-image: url("images/footer.gif")
+}
+
+/*Navigation*/
+nav{
+	width: 100%;
+	height: 40px;
+	margin-left: -10px;
+	padding-right: 18px;
+	background-image: url("images/navbg.gif");
+	background-repear: repeat-x;
+	font-size: 16px;
+}
+
+a.folien{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 65px;
+	text-decoration: none;
+	color: #142b7b;
+}
+
+a.folien:hover{
+	color: #ffffee;
+}
+
+a.benutzer{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 140px;
+	text-decoration: none;
+	color: #142b7b;
+}
+
+a.benutzer:hover{
+	color: #ffffee;
+}
+
+a.logout{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 230px;
+	text-decoration: none;
+	color: #142b7b;
+}
+
+a.logout:hover{
+	color: #ffffee;
+}
+
+#red{
+	font-style: italic;
+	color: red;
+}
+
+#green{
+	font-style: italic;
+	color: #00ff0c;
+}
+
+/*JValidate Style*/
+#Form label.error,#Form button.submit {
+	margin-left: 10px;
+	color: red;
+	font-style: italic;
+}
+
+/* css for timepicker */
+.ui-timepicker-div dl dt{ height: 25px; }
+.ui-timepicker-div dl dd{ margin: -20px 0 15px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
