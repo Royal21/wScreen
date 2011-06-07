@@ -1,11 +1,5 @@
 <?php
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2011 Marco von Gunten <marcovg@gmx.ch> 		  		  |
-// +----------------------------------------------------------------------+
-// | Die index Seite wird beim Aufrufen der Website als erstes Aufgerufen.|
-// | Hier wird die mitgelieferte pid ausgewertet und dementsprechend die  |
-// | verlangte Seite geladen und angezeigt.		  	  					  |
-// +----------------------------------------------------------------------+
+
 
 session_start();
 
